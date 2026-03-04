@@ -1,0 +1,14 @@
+strategic_region={
+    id=38
+    name="STRATEGICREGION_38"
+    provinces={
+        2510 2512 2513 2541 4653 7381 7397 7511 7513 7514 7529 7533 7564 7578 10390 10457 12471 12514 12524 12525 12528 12551 12574
+    }
+    naval_terrain=sea
+    weather={
+        period={
+            between={ 0.0 30.0 }
+            temperature={ 25.0 30.0 }
+        }
+    }
+}
