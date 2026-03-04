@@ -1,0 +1,9 @@
+# TLWWDEV — Advisor Idea Sprites
+# Path: interface/tlww_advisor_ideas.gfx
+
+spriteTypes = {
+    spriteType = {
+        name        = "GFX_idea_USA_peter_thiel"
+        texturefile = "gfx/interface/ideas/USA_peter_thiel.dds"
+    }
+}

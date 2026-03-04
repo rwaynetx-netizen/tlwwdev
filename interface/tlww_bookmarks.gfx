@@ -1,0 +1,14 @@
+# TLWWDEV — Bookmark Sprite
+# Path: interface/tlww_bookmarks.gfx
+
+spriteTypes = {
+    spriteType = {
+        name        = "GFX_select_date_2036"
+        texturefile = "gfx/interface/tlww_2036.dds"
+        noOfFrames  = 1
+    }
+    spriteType = {
+        name = "GFX_select_date_2039"
+        texturefile = "gfx/interface/tlww_2039.dds"
+    }
+}

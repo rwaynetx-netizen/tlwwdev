@@ -1,0 +1,135 @@
+spriteTypes = {
+
+    # === JD VANCE ===
+    spriteType = {
+        name        = "GFX_portrait_USA_vance_2036_large"
+        texturefile = "gfx/leaders/USA/JDVance.dds"
+    }
+    spriteType = {
+        name        = "GFX_portrait_USA_vance_2036_small"
+        texturefile = "gfx/leaders/USA/JDVance.dds"
+    }
+
+
+    # === MARCO RUBIO (VP / SUCCESSOR) ===
+    spriteType = {
+        name        = "GFX_portrait_USA_rubio_2036_large"
+        texturefile = "gfx/leaders/USA/USA_marco_rubio_large.dds"
+    }
+    spriteType = {
+        name        = "GFX_portrait_USA_rubio_2036_small"
+        texturefile = "gfx/leaders/USA/USA_marco_rubio_small.dds"
+    }
+
+    # === NICK FUENTES ===
+    spriteType = {
+        name            = "GFX_portrait_USA_fuentes_2036_large"
+        texturefile     = "gfx/leaders/USA/NickFuentes_large.dds"
+        legacy_lazy_load = no
+    }
+    spriteType = {
+        name            = "GFX_portrait_USA_fuentes_2036_small"
+        texturefile     = "gfx/leaders/USA/NickFuentes_small.dds"
+        legacy_lazy_load = no
+    }
+
+    # === VLADIMIR PUTIN ===
+    spriteType = {
+        name        = "GFX_portrait_SOV_putin_2036_large"
+        texturefile = "gfx/leaders/SOV/putin.dds"
+    }
+    spriteType = {
+        name        = "GFX_portrait_SOV_putin_2036_small"
+        texturefile = "gfx/leaders/SOV/putin.dds"
+    }
+
+    # === SANTIAGO ABASCAL ===
+    spriteType = {
+        name        = "GFX_portrait_SPR_abascal_2036_large"
+        texturefile = "gfx/leaders/SPR/abascal_2036.dds"
+    }
+    spriteType = {
+        name        = "GFX_portrait_SPR_abascal_2036_small"
+        texturefile = "gfx/leaders/SPR/abascal_2036.dds"
+    }
+
+    # === PIERCE BUSH — Atlanticist Republican (Texas contingency leader) ===
+    spriteType = {
+        name        = "GFX_portrait_TEX_pierce_bush_2036_large"
+        texturefile = "gfx/leaders/TEX/Pierce_Bush.dds"
+    }
+    spriteType = {
+        name        = "GFX_portrait_TEX_pierce_bush_2036_small"
+        texturefile = "gfx/leaders/TEX/Pierce_Bush.dds"
+    }
+
+    # === MAKOTO SAKURAI — Japan (2036 start leader) ===
+    spriteType = {
+        name        = "GFX_portrait_JAP_sakurai_2036_large"
+        texturefile = "gfx/leaders/JAP/Makoto_Sakurai.dds"
+    }
+    spriteType = {
+        name        = "GFX_portrait_JAP_sakurai_2036_small"
+        texturefile = "gfx/leaders/JAP/Makoto_Sakurai.dds"
+    }
+
+    # === DING XUEXIANG — China (2036 start leader) ===
+    spriteType = {
+        name        = "GFX_portrait_CHI_ding_xuexiang_2036_large"
+        texturefile = "gfx/leaders/CHI/Ding_Xuexiang.dds"
+    }
+    spriteType = {
+        name        = "GFX_portrait_CHI_ding_xuexiang_2036_small"
+        texturefile = "gfx/leaders/CHI/Ding_Xuexiang.dds"
+    }
+
+    # === HAKAN FIDAN — Turkey (2036 start leader) ===
+    spriteType = {
+        name        = "GFX_portrait_TUR_hakan_fidan_2036_large"
+        texturefile = "gfx/leaders/TUR/Hakan_Fidan.dds"
+    }
+    spriteType = {
+        name        = "GFX_portrait_TUR_hakan_fidan_2036_small"
+        texturefile = "gfx/leaders/TUR/Hakan_Fidan.dds"
+    }
+
+    # === JULIUS MALEMA — South Africa (2036 start leader) ===
+    spriteType = {
+        name        = "GFX_portrait_SAF_julius_malema_2036_large"
+        texturefile = "gfx/leaders/SAF/Julius_Malema.dds"
+    }
+    spriteType = {
+        name        = "GFX_portrait_SAF_julius_malema_2036_small"
+        texturefile = "gfx/leaders/SAF/Julius_Malema.dds"
+    }
+
+    # === QUEEN ESTELLE — Sweden (2036 start leader) ===
+    spriteType = {
+        name        = "GFX_portrait_SWE_queen_estelle_2036_large"
+        texturefile = "gfx/leaders/SWE/Queen_Estelle.dds"
+    }
+    spriteType = {
+        name        = "GFX_portrait_SWE_queen_estelle_2036_small"
+        texturefile = "gfx/leaders/SWE/Queen_Estelle.dds"
+    }
+
+    # === GUNTHER FEHLINGER — Austria (2036 start leader) ===
+    spriteType = {
+        name        = "GFX_portrait_AUS_gunther_fehlinger_2036_large"
+        texturefile = "gfx/leaders/AUS/Gunther_Fehlinger.dds"
+    }
+    spriteType = {
+        name        = "GFX_portrait_AUS_gunther_fehlinger_2036_small"
+        texturefile = "gfx/leaders/AUS/Gunther_Fehlinger.dds"
+    }
+
+    # === ALEXANDRE GAZUR — Portugal (2036 start leader) ===
+    spriteType = {
+        name        = "GFX_portrait_POR_gazur_2036_large"
+        texturefile = "gfx/leaders/POR/Alexandre_Gazur.dds"
+    }
+    spriteType = {
+        name        = "GFX_portrait_POR_gazur_2036_small"
+        texturefile = "gfx/leaders/POR/Alexandre_Gazur.dds"
+    }
+}
