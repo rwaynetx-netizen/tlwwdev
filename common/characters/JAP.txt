@@ -1,0 +1,22 @@
+# TLWWDEV — JAP (Japan) Character Definitions
+# Path: common/characters/JAP.txt
+
+characters = {
+
+    # === MAKOTO SAKURAI — Prime Minister of Japan (2036 start) ===
+    JAP_makoto_sakurai = {
+        name = "Makoto Sakurai"
+        portraits = {
+            civilian = {
+                large = "GFX_portrait_JAP_sakurai_2036_large"
+                small = "GFX_portrait_JAP_sakurai_2036_small"
+            }
+        }
+        country_leader = {
+            ideology = conservatism
+            expire = "2065.1.1"
+            traits = { }
+        }
+    }
+
+}

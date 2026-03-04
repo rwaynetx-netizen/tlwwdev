@@ -1,0 +1,22 @@
+# TLWWDEV — SWE (Sweden) Character Definitions
+# Path: common/characters/SWE.txt
+
+characters = {
+
+    # === QUEEN ESTELLE — Sweden (2036 start leader) ===
+    SWE_queen_estelle = {
+        name = "Queen Estelle"
+        portraits = {
+            civilian = {
+                large = "GFX_portrait_SWE_queen_estelle_2036_large"
+                small = "GFX_portrait_SWE_queen_estelle_2036_small"
+            }
+        }
+        country_leader = {
+            ideology = conservatism
+            expire = "2065.1.1"
+            traits = { }
+        }
+    }
+
+}

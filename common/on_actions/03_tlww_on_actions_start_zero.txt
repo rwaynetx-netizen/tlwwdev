@@ -1,0 +1,36 @@
+# TLWWDEV — On Actions: Starting Resource Reset
+# Path: common/on_actions/03_tlww_on_actions_start_zero.txt
+# Zeroes political power and command power on day 1 for clean slate
+# Guard flag prevents the daily from running after day 1
+
+on_actions = {
+    on_startup = {
+        effect = {
+            every_country = {
+                set_political_power  = 0
+                add_command_power    = -9999
+            }
+            set_global_flag = tlww_cp_zero_guard
+
+            # TLWW Canon ignition: schedule the USA assassination chain reliably.
+            # Using on_startup (not on_game_start) because TLWWDEV already relies on on_startup here.
+            if = {
+                limit = { NOT = { has_global_flag = tlww_vance_assassination_scheduled } }
+                set_global_flag = tlww_vance_assassination_scheduled
+                every_country = {
+                    limit = { tag = USA }
+                    country_event = { id = tlww_usa.10 days = 45 }
+                }
+            }
+        }
+    }
+    on_daily = {
+        effect = {
+            if = {
+                limit = { has_global_flag = tlww_cp_zero_guard }
+                every_country = { add_command_power = -9999 }
+                clr_global_flag = tlww_cp_zero_guard
+            }
+        }
+    }
+}

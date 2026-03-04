@@ -1,0 +1,14 @@
+# TLWWDEV — Idle default focus tree
+# Blocks vanilla NF content until TLWW trees are ready
+# replace_path="common/national_focus" means ONLY this file exists in that folder
+# Path: common/national_focus/tlww_idle.txt
+
+focus_tree = {
+    id      = TLWW_IDLE
+    default = yes
+    focus = {
+        id   = TLWW_IDLE
+        icon = GFX_goal_unknown
+        cost = 9999
+    }
+}

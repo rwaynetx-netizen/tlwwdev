@@ -1,0 +1,65 @@
+# TLWWDEV — Bookmarks
+# Path: common/bookmarks/00_bookmarks.txt
+
+bookmarks = {
+    bookmark = {
+        name         = "2036_SCENARIO"
+        desc         = "2036_SCENARIO_DESC"
+        date         = 2036.1.1.12
+        picture      = "GFX_select_date_2036"
+        default      = yes
+        default_country = "USA"
+
+        selectable_countries = { USA SOV CHI }
+        minor_countries      = { SPR JAP }
+
+        USA = {
+            history  = "USA_2036_DESC"
+            ideology = democratic
+            ideas    = {
+                USA_atlantic_digital_coalition
+                USA_monroe_doctrine_2036
+            }
+        }
+
+        SOV = {
+            history  = "SOV_2036_DESC"
+            ideology = communism
+        }
+
+        CHI = {
+            history  = "CHI_2036_DESC"
+            ideology = neutrality
+        }
+
+        JAP = {
+            history  = "JAP_2036_DESC"
+            ideology = neutrality
+        }
+
+        SPR = {
+            history  = "SPR_2036_DESC"
+            ideology = fascism
+        }
+
+        effect = {
+            randomize_weather    = 12345
+            set_global_flag      = tlww_2036_scenario
+        }
+    }
+bookmark = {
+    name         = "TLWW_COMING_SOON"
+    desc         = "TLWW_COMING_SOON_DESC"
+    date         = 2039.1.1.12
+    picture      = "GFX_select_date_2039"
+    default      = no
+    default_country = "USA"
+
+    selectable_countries = { }
+    minor_countries      = { }
+
+    effect = {
+        set_global_flag = tlww_coming_soon_selected
+    }
+}
+}

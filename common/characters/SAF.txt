@@ -1,0 +1,22 @@
+# TLWWDEV — SAF (South Africa) Character Definitions
+# Path: common/characters/SAF.txt
+
+characters = {
+
+    # === JULIUS MALEMA — South Africa (2036 start leader) ===
+    SAF_julius_malema = {
+        name = "Julius Malema"
+        portraits = {
+            civilian = {
+                large = "GFX_portrait_SAF_julius_malema_2036_large"
+                small = "GFX_portrait_SAF_julius_malema_2036_small"
+            }
+        }
+        country_leader = {
+            ideology = communism
+            expire = "2065.1.1"
+            traits = { }
+        }
+    }
+
+}

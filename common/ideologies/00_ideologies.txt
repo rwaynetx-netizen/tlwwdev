@@ -1,0 +1,119 @@
+ideologies = {
+	# ========================================
+	# ATLANTICISM (Democratic - BLUE)
+	# ========================================
+	democratic = {
+		types = {
+			conservatism = { }
+			liberalism = { }
+			socialism = { }
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_DEMOCRATIC_1"
+			"FACTION_NAME_DEMOCRATIC_2"
+			"FACTION_NAME_DEMOCRATIC_3"
+		}
+		
+		color = { 0 0 255 }
+		
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		war_impact_on_world_tension = 0.5
+		faction_impact_on_world_tension = 0.5
+		can_collaborate = yes
+	}
+	
+	# ========================================
+	# MULTIPOLARISM (Neutrality - GREEN)
+	# ========================================
+	neutrality = {
+		types = {
+			despotism = { }
+			oligarchism = { }
+			moderatism = { }
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_NONALIGNED_1"
+			"FACTION_NAME_NONALIGNED_2"
+			"FACTION_NAME_NONALIGNED_3"
+		}
+		
+		# CRITICAL: GREEN color (0-255 RGB)
+		color = { 0 150 0 }
+		
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_send_volunteers = yes
+		}
+		
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.1
+		can_collaborate = yes
+	}
+	
+	# ========================================
+	# NEO-COMMUNISM (Communism - RED)
+	# ========================================
+	communism = {
+		types = {
+			leninism = { }
+			stalinism = { }
+			marxism = { }
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_COMMUNIST_1"
+			"FACTION_NAME_COMMUNIST_2"
+			"FACTION_NAME_COMMUNIST_3"
+		}
+		
+		color = { 200 0 0 }
+		
+		rules = {
+			can_force_government = yes
+			can_puppet = yes
+			can_send_volunteers = yes
+		}
+		
+		war_impact_on_world_tension = 0.5
+		faction_impact_on_world_tension = 0.5
+		can_collaborate = no
+	}
+	
+	# ========================================
+	# NATIONAL INTEGRALISM (Fascism - ORANGE)
+	# ========================================
+	fascism = {
+		types = {
+			nazism = { }
+			fascism_ideology = { }
+			falangism = { }
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_FASCIST_1"
+			"FACTION_NAME_FASCIST_2"
+			"FACTION_NAME_FASCIST_3"
+		}
+		
+		# Orange color
+		color = { 255 140 0 }
+		
+		rules = {
+			can_force_government = yes
+			can_puppet = yes
+			can_send_volunteers = yes
+		}
+		
+		war_impact_on_world_tension = 1.0
+		faction_impact_on_world_tension = 0.75
+		can_collaborate = yes
+	}
+}

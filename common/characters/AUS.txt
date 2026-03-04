@@ -1,0 +1,22 @@
+# TLWWDEV — AUS (Austria) Character Definitions
+# Path: common/characters/AUS.txt
+
+characters = {
+
+    # === GUNTHER FEHLINGER — Austria (2036 start leader) ===
+    AUS_gunther_fehlinger = {
+        name = "Gunther Fehlinger"
+        portraits = {
+            civilian = {
+                large = "GFX_portrait_AUS_gunther_fehlinger_2036_large"
+                small = "GFX_portrait_AUS_gunther_fehlinger_2036_small"
+            }
+        }
+        country_leader = {
+            ideology = conservatism
+            expire = "2065.1.1"
+            traits = { }
+        }
+    }
+
+}

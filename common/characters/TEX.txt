@@ -1,0 +1,27 @@
+# TLWWDEV — TEX Character Definitions
+# Path: common/characters/TEX.txt
+# Note: TEX tag may be added later. This file safely predefines characters for future use.
+
+characters = {
+
+    # === PIERCE BUSH — Atlanticist Republican (Texas contingency leader) ===
+    TEX_pierce_bush = {
+        name = TEX_pierce_bush
+
+        portraits = {
+            civilian = {
+                large = "GFX_portrait_TEX_pierce_bush_2036_large"
+                small = "GFX_portrait_TEX_pierce_bush_2036_small"
+            }
+        }
+
+        country_leader = {
+            ideology = conservatism
+            expire = "2075.1.1"
+            traits = {
+                bush_legacy
+            }
+        }
+    }
+
+}

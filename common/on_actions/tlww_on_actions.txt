@@ -1,0 +1,30 @@
+on_actions = {
+	# ========================================
+	# GAME START INITIALIZATION - FIXED FOR 1.17.4
+	# ========================================
+	on_startup = {
+		effect = {
+			# Initialize Global Crisis System
+			tlww_init_crisis_system = yes
+			
+			# FIXED: Start monthly crisis pulse using country_event to USA
+			USA = {
+				country_event = {
+					id = tlww_crisis_pulse.1
+					days = 30
+				}
+			}
+			
+			# Fire Day One intro event for player only
+			every_country = {
+				limit = {
+					is_ai = no
+				}
+				country_event = {
+					id = tlww_intro.1
+					days = 1
+				}
+			}
+		}
+	}
+}

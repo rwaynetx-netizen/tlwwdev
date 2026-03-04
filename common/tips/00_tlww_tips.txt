@@ -1,0 +1,19 @@
+# TLWWDEV — Loading Tips
+# Path: common/tips/00_tlww_tips.txt
+
+tips = {
+    "LOADING_TIP_0"
+    "LOADING_TIP_1"
+    "LOADING_TIP_2"
+    "LOADING_TIP_3"
+    "LOADING_TIP_4"
+    "LOADING_TIP_5"
+    "LOADING_TIP_6"
+    "LOADING_TIP_7"
+    "LOADING_TIP_8"
+    "LOADING_TIP_9"
+    "LOADING_TIP_10"
+    "LOADING_TIP_11"
+    "LOADING_TIP_12"
+    "LOADING_TIP_13"
+}

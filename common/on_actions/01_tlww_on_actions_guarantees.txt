@@ -1,0 +1,10 @@
+# TLWWDEV — On Actions: Guarantee Stripping
+# Path: common/on_actions/01_tlww_on_actions_guarantees.txt
+
+on_actions = {
+    on_startup = {
+        effect = {
+            country_event = { id = 999230 }
+        }
+    }
+}

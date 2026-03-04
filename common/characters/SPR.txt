@@ -1,0 +1,41 @@
+# TLWWDEV — SPR (Spain) Character Definitions
+# Authoritative single file. Replaces SPR.txt and zzz_SPR_TLWW.txt
+# Fix: Abascal ideology corrected from democratic -> fascism_ideology (matches ruling_party = fascism)
+# Removed: invalid trait 'racist' (not defined in any traits file)
+# Path: common/characters/SPR.txt
+
+characters = {
+
+    # === SANTIAGO ABASCAL — Prime Minister of Spain ===
+    # National Integralist government. Vox party in power.
+    SPR_santiago_abascal = {
+        name = "Santiago Abascal"
+        portraits = {
+            civilian = {
+                large = "GFX_portrait_SPR_abascal_2036_large"
+                small  = "GFX_portrait_SPR_abascal_2036_small"
+            }
+        }
+        country_leader = {
+            ideology = fascism_ideology   # Correct: matches ruling_party = fascism
+            expire = "2065.1.1"
+            traits = {
+                civilizational_nationalist
+            }
+        }
+    }
+
+    # === VANILLA/DLC CHARACTER STUBS ===
+    # Minimal definitions to prevent parser errors when vanilla/DLC events reference missing characters.
+    # Original vanilla character definitions replaced by TLWWDEV custom roster.
+
+    SPR_Francisco_Franco = {
+        name = "Francisco Franco"
+        country_leader = {
+            ideology = fascism_ideology
+            expire = "2065.1.1"
+            traits = { }
+        }
+    }
+
+}

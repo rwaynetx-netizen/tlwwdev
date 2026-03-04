@@ -1,0 +1,23 @@
+# TLWWDEV — CHI (China) Character Definitions
+# Path: common/characters/CHI.txt
+
+characters = {
+
+    # === DING XUEXIANG — China (2036 start leader) ===
+    CHI_ding_xuexiang = {
+        name = "Ding Xuexiang"
+        portraits = {
+            civilian = {
+                large = "GFX_portrait_CHI_ding_xuexiang_2036_large"
+                small = "GFX_portrait_CHI_ding_xuexiang_2036_small"
+            }
+        }
+        country_leader = {
+            # Uses vanilla sub-ideology; China is set to neutrality in history.
+            ideology = despotism
+            expire = "2065.1.1"
+            traits = { }
+        }
+    }
+
+}

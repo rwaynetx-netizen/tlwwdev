@@ -1,0 +1,150 @@
+# TLWW Global Crisis System - FIXED FOR 1.17.4
+# Scripted effects DO NOT support parameters like { amount = 5 }
+# Instead we create separate effects for different amounts
+
+# ========================================
+# INITIALIZATION
+# ========================================
+
+tlww_init_crisis_system = {
+	# Set global escalation level (0-100)
+	set_global_flag = tlww_crisis_active
+	set_variable = { global.tlww_crisis_level = 0 }
+	
+	# Set crisis thresholds
+	set_variable = { global.tlww_crisis_threshold_low = 25 }
+	set_variable = { global.tlww_crisis_threshold_medium = 50 }
+	set_variable = { global.tlww_crisis_threshold_high = 75 }
+	set_variable = { global.tlww_crisis_threshold_war = 100 }
+	
+	# Initialize flashpoint trackers
+	set_variable = { global.tlww_taiwan_crisis = 0 }
+	set_variable = { global.tlww_eastern_europe_crisis = 0 }
+	set_variable = { global.tlww_panama_crisis = 0 }
+	set_variable = { global.tlww_arctic_crisis = 0 }
+	set_variable = { global.tlww_africa_crisis = 0 }
+	set_variable = { global.tlww_south_america_crisis = 0 }
+}
+
+# ========================================
+# CRISIS LEVEL ADJUSTMENT (FIXED)
+# ========================================
+
+# Generic add - small increment (+2)
+tlww_add_crisis_small = {
+	add_to_variable = { global.tlww_crisis_level = 2 }
+	clamp_variable = { var = global.tlww_crisis_level min = 0 max = 100 }
+	tlww_check_crisis_threshold = yes
+}
+
+# Generic add - medium increment (+3)
+tlww_add_crisis_medium = {
+	add_to_variable = { global.tlww_crisis_level = 3 }
+	clamp_variable = { var = global.tlww_crisis_level min = 0 max = 100 }
+	tlww_check_crisis_threshold = yes
+}
+
+# Generic add - large increment (+5)
+tlww_add_crisis_large = {
+	add_to_variable = { global.tlww_crisis_level = 5 }
+	clamp_variable = { var = global.tlww_crisis_level min = 0 max = 100 }
+	tlww_check_crisis_threshold = yes
+}
+
+# Reduce crisis (de-escalation) - small
+tlww_reduce_crisis_small = {
+	subtract_from_variable = { global.tlww_crisis_level = 3 }
+	clamp_variable = { var = global.tlww_crisis_level min = 0 max = 100 }
+}
+
+# Reduce crisis - large
+tlww_reduce_crisis_large = {
+	subtract_from_variable = { global.tlww_crisis_level = 10 }
+	clamp_variable = { var = global.tlww_crisis_level min = 0 max = 100 }
+}
+
+# ========================================
+# THRESHOLD CHECKING (FIXED)
+# ========================================
+
+tlww_check_crisis_threshold = {
+	if = {
+		limit = {
+			check_variable = { global.tlww_crisis_level > global.tlww_crisis_threshold_war }
+			NOT = { has_global_flag = tlww_world_war_triggered }
+		}
+		# TRIGGER WORLD WAR III
+		set_global_flag = tlww_world_war_triggered
+		every_country = {
+			limit = { is_ai = no }
+			country_event = { id = tlww_crisis.100 }
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { global.tlww_crisis_level > global.tlww_crisis_threshold_high }
+			NOT = { has_global_flag = tlww_crisis_high }
+		}
+		set_global_flag = tlww_crisis_high
+		every_country = {
+			limit = { is_ai = no }
+			country_event = { id = tlww_crisis.3 }
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { global.tlww_crisis_level > global.tlww_crisis_threshold_medium }
+			NOT = { has_global_flag = tlww_crisis_medium }
+		}
+		set_global_flag = tlww_crisis_medium
+		every_country = {
+			limit = { is_ai = no }
+			country_event = { id = tlww_crisis.2 }
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = { global.tlww_crisis_level > global.tlww_crisis_threshold_low }
+			NOT = { has_global_flag = tlww_crisis_low }
+		}
+		set_global_flag = tlww_crisis_low
+		every_country = {
+			limit = { is_ai = no }
+			country_event = { id = tlww_crisis.1 }
+		}
+	}
+}
+
+# ========================================
+# FLASHPOINT ESCALATION (FIXED)
+# ========================================
+
+tlww_escalate_taiwan = {
+	add_to_variable = { global.tlww_taiwan_crisis = 1 }
+	tlww_add_crisis_medium = yes
+}
+
+tlww_escalate_eastern_europe = {
+	add_to_variable = { global.tlww_eastern_europe_crisis = 1 }
+	tlww_add_crisis_medium = yes
+}
+
+tlww_escalate_panama = {
+	add_to_variable = { global.tlww_panama_crisis = 1 }
+	tlww_add_crisis_small = yes
+}
+
+tlww_escalate_arctic = {
+	add_to_variable = { global.tlww_arctic_crisis = 1 }
+	tlww_add_crisis_small = yes
+}
+
+tlww_escalate_africa = {
+	add_to_variable = { global.tlww_africa_crisis = 1 }
+	tlww_add_crisis_small = yes
+}
+
+tlww_escalate_south_america = {
+	add_to_variable = { global.tlww_south_america_crisis = 1 }
+	tlww_add_crisis_small = yes
+}

@@ -1,0 +1,22 @@
+# TLWWDEV — Portugal Characters
+# Path: common/characters/POR.txt
+
+characters = {
+
+    POR_alexandre_gazur = {
+        name = "Alexandre Gazur"
+        portraits = {
+            civilian = {
+                large = "GFX_portrait_POR_gazur_2036_large"
+                small = "GFX_portrait_POR_gazur_2036_small"
+            }
+        }
+
+        country_leader = {
+            ideology = fascism_ideology
+            expire = "2065.1.1"
+            traits = { brilliant_orator }
+        }
+    }
+
+}

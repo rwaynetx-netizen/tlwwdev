@@ -1,0 +1,82 @@
+
+# TLWWDEV — Country Leader Traits
+# Path: common/country_leader/00_tlww_traits.txt
+# Country leader traits are defined inside leader_traits = { }.
+
+# Wrapper to provide explicit parse context for trait entries
+leader_traits = {
+
+    # === ATLANTICISM ===
+    atlantic_industrialist = {
+        random = no
+        sprite = 13
+        modifier = {
+            production_speed_industrial_complex_factor = 0.10
+            production_speed_arms_factory_factor = 0.10
+        }
+    }
+
+    # === BUSH DYNASTY ===
+    bush_legacy = {
+        random = no
+        sprite = 13
+        modifier = {
+            political_power_gain = 0.10
+        }
+    }
+
+
+    # === DIGITALISM ===
+    digital_strategist = {
+        random = no
+        sprite = 13
+        modifier = {
+            encryption_factor = 0.10
+            decryption_factor = 0.10
+        }
+    }
+
+    # === MULTIPOLARISM ===
+    multipolar_advocate = {
+        random = no
+        sprite = 13
+        modifier = {
+            trade_opinion_factor = 0.15
+            drift_defence_factor = 0.10
+        }
+    }
+
+    # === NEO-COMMUNISM ===
+    democratic_socialist = {
+        random = no
+        sprite = 13
+        modifier = {
+            stability_factor = 0.05
+            communism_drift = 0.02
+        }
+    }
+
+    # === NATIONAL INTEGRALISM ===
+    civilizational_nationalist = {
+        random = no
+        sprite = 13
+        modifier = {
+            fascism_drift = 0.02
+            army_morale_factor = 0.05
+        }
+    }
+
+
+
+    # === CRISIS / SUCCESSION ===
+    crisis_manager = {
+        random = no
+        sprite = 13
+        modifier = {
+            political_power_gain = 0.05
+            stability_factor = 0.05
+            war_support_factor = 0.05
+        }
+    }
+
+} # end leader_traits

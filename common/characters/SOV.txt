@@ -1,0 +1,47 @@
+# TLWWDEV — SOV (Russia) Character Definitions
+# Authoritative single file. Replaces SOV.txt and zzz_SOV_TLWW.txt
+# Fix: Putin ideology corrected from democratic -> despotism (matching ruling_party = neutrality)
+# Path: common/characters/SOV.txt
+
+characters = {
+
+    # === VLADIMIR PUTIN — President of Russia ===
+    # Age 83 in 2036. Still in formal control. Health is an open secret.
+    SOV_vladimir_putin = {
+        name = "Vladimir Putin"
+        portraits = {
+            civilian = {
+                large = "GFX_portrait_SOV_putin_2036_large"
+                small  = "GFX_portrait_SOV_putin_2036_small"
+            }
+        }
+        country_leader = {
+            ideology = despotism   # Correct: matches neutrality ruling party
+            expire = "2065.1.1"
+            traits = { }
+        }
+    }
+
+    # === VANILLA/DLC CHARACTER STUBS ===
+    # Minimal definitions to prevent parser errors when vanilla/DLC events reference missing characters.
+    # Original vanilla character definitions replaced by TLWWDEV custom roster.
+
+    SOV_Joseph_Stalin = {
+        name = "Joseph Stalin"
+        country_leader = {
+            ideology = stalinism
+            expire = "2065.1.1"
+            traits = { }
+        }
+    }
+
+    SOV_aleksandr_kerensky = {
+        name = "Alexander Kerensky"
+        country_leader = {
+            ideology = conservatism
+            expire = "2065.1.1"
+            traits = { }
+        }
+    }
+
+}

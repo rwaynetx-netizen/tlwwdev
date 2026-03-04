@@ -1,0 +1,25 @@
+# TLWWDEV — On Actions: Philippines Independence
+# Path: common/on_actions/02_tlww_on_actions_phi_free.txt
+# Ensures Philippines is not a USA puppet at game start
+
+on_actions = {
+    on_startup = {
+        effect = {
+            USA = {
+                if = { limit = { has_subject = PHI } end_puppet = PHI }
+            }
+            set_global_flag = tlww_phi_cut
+        }
+    }
+    on_daily = {
+        effect = {
+            if = {
+                limit = { NOT = { has_global_flag = tlww_phi_cut } }
+                USA = {
+                    if = { limit = { has_subject = PHI } end_puppet = PHI }
+                }
+                set_global_flag = tlww_phi_cut
+            }
+        }
+    }
+}

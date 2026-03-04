@@ -1,0 +1,10 @@
+# TLWWDEV — On Actions: Debug Check
+# Path: common/on_actions/04_tlww_on_actions_check.txt
+
+on_actions = {
+    on_startup = {
+        effect = {
+            country_event = { id = 999450 }
+        }
+    }
+}

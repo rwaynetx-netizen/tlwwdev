@@ -1,0 +1,114 @@
+characters = {
+	# ========================================
+	# PRESIDENT - J.D. VANCE
+	# ========================================
+	USA_jd_vance = {
+		name = "J. D. Vance"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_USA_vance_2036_large
+				small = GFX_portrait_USA_vance_2036_small
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			expire = "2040.1.1"
+			traits = {
+				atlantic_industrialist
+			}
+		}
+	}
+	
+	# ========================================
+	# ADVISOR - PETER THIEL (FIXED)
+	# ========================================
+	USA_peter_thiel = {
+		name = "Peter Thiel"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_USA_thiel_large
+				small = GFX_portrait_USA_thiel_small
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = USA_peter_thiel
+			cost = 0
+			
+			allowed = {
+				original_tag = USA
+			}
+			
+			# CRITICAL: This makes him unfireable while available
+			can_be_fired = no
+			
+			# CRITICAL: Only available while Vance is president
+			available = {
+				has_country_leader = {
+					character = USA_jd_vance
+					ruling_only = yes
+				}
+			}
+			
+			# Use the trait we defined
+			traits = {
+				digital_strategist
+			}
+		}
+	}
+	
+	# ========================================
+	# PARTY LEADERS (NON-RULING)
+	# ========================================
+	
+	USA_jackson_hinkle = {
+		name = "Jackson Hinkle"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_USA_hinkle_large
+				small = GFX_portrait_USA_hinkle_small
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			expire = "2040.1.1"
+			traits = {
+				multipolar_advocate
+			}
+		}
+	}
+	
+	USA_alexandria_ocasio_cortez = {
+		name = "Alexandria Ocasio-Cortez"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_USA_aoc_large
+				small = GFX_portrait_USA_aoc_small
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			expire = "2040.1.1"
+			traits = {
+				democratic_socialist
+			}
+		}
+	}
+	
+	USA_nicholas_fuentes = {
+		name = "Nicholas J. Fuentes"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_USA_fuentes_large
+				small = GFX_portrait_USA_fuentes_small
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			expire = "2040.1.1"
+			traits = {
+				civilizational_nationalist
+			}
+		}
+	}
+}

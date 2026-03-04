@@ -1,0 +1,15 @@
+# TLWWDEV — On Actions: Game Start (Stability Pass)
+# Path: common/on_actions/00_tlww_on_actions.txt
+# Fires the day-one "Welcome to 2036" event for the player country exactly once.
+
+on_actions = {
+    on_game_start = {
+        effect = {
+            if = {
+                limit = { is_ai = no }
+                country_event = { id = tlww_intro.1 days = 1 }
+                set_global_flag = tlww_2036_scenario
+            }
+        }
+    }
+}

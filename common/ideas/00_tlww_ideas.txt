@@ -1,0 +1,66 @@
+ideas = {
+	# ========================================
+	# NATIONAL SPIRITS
+	# ========================================
+	country = {
+		USA_atlantic_digital_coalition = {
+			allowed = {
+				original_tag = USA
+			}
+			removal_cost = -1
+			picture = generic_intel_bonus
+			
+			modifier = {
+				research_speed_factor = 0.05
+				industrial_capacity_factory = 0.10
+				political_power_gain = 0.15
+			}
+		}
+		
+		USA_monroe_doctrine_2036 = {
+			allowed = {
+				original_tag = USA
+			}
+			removal_cost = -1
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				justify_war_goal_time = -0.25
+				send_volunteer_divisions_required = -0.25
+			}
+			
+			rule = {
+				can_send_volunteers = yes
+			}
+		}
+	}
+	
+	# ========================================
+	# ADVISOR IDEAS - PETER THIEL (FIXED)
+	# ========================================
+	political_advisor = {
+		USA_peter_thiel = {
+			picture = GFX_idea_USA_peter_thiel
+			
+			allowed = {
+				original_tag = USA
+			}
+			
+			# CRITICAL: Controls when he can be removed
+			# He CAN be removed ONLY when Vance is no longer leader
+			allowed_to_remove = {
+				NOT = {
+					has_country_leader = {
+						character = USA_jd_vance
+						ruling_only = yes
+					}
+				}
+			}
+			
+			# Reference the trait we defined
+			traits = {
+				digital_strategist
+			}
+		}
+	}
+}
