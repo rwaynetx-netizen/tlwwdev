@@ -1,0 +1,40 @@
+# TLWWDEV — Guarantee Stripping Event
+# Path: events/tlww_guarantees.txt
+
+country_event = {
+    id = 999230
+    is_triggered_only = yes
+    hidden = yes
+
+    immediate = {
+        every_country = {
+            save_event_target_as = tlww_country_a
+            every_country = {
+                limit = { NOT = { tag = event_target:tlww_country_a } }
+                if = {
+                    limit = { event_target:tlww_country_a = { has_guaranteed = THIS } }
+                    event_target:tlww_country_a = {
+                        diplomatic_relation = { country = THIS relation = guarantee active = no }
+                    }
+                }
+                if = {
+                    limit = { THIS = { has_guaranteed = event_target:tlww_country_a } }
+                    THIS = {
+                        diplomatic_relation = { country = event_target:tlww_country_a relation = guarantee active = no }
+                    }
+                }
+            }
+        }
+        # Belt-and-suspenders for known Balkan vanilla guarantees
+        ROM = {
+            diplomatic_relation = { country = GRE relation = guarantee active = no }
+            diplomatic_relation = { country = TUR relation = guarantee active = no }
+            diplomatic_relation = { country = YUG relation = guarantee active = no }
+        }
+        GRE = { diplomatic_relation = { country = ROM relation = guarantee active = no } }
+        TUR = { diplomatic_relation = { country = ROM relation = guarantee active = no } }
+        YUG = { diplomatic_relation = { country = ROM relation = guarantee active = no } }
+    }
+
+    option = { name = "OK" }
+}

@@ -1,0 +1,12 @@
+# TLWWDEV — Debug Check Event
+# Path: events/tlww_check.txt
+
+country_event = {
+    id = 999450
+    is_triggered_only = yes
+    hidden = yes
+    immediate = {
+        log = "TLWWDEV: startup sequence active. Characters, ideologies, on_actions all loaded."
+    }
+    option = { name = "OK" }
+}

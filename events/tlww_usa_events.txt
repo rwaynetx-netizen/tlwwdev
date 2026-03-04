@@ -1,0 +1,77 @@
+# TLWWDEV — USA Story Events (Assassination / Succession)
+# Path: events/tlww_usa_events.txt
+
+add_namespace = tlww_usa
+
+# --- TLWW.USA.10: Assassination of President Vance ---
+country_event = {
+    id      = tlww_usa.10
+    title   = tlww_usa.10.t
+    desc    = tlww_usa.10.d
+    picture = GFX_report_event_generic_peaceful_negotiations
+
+    is_triggered_only = yes
+
+    trigger = {
+        tag = USA
+        NOT = { has_country_flag = tlww_vance_assassinated }
+    }
+
+    immediate = {
+        set_country_flag = tlww_vance_assassinated
+    }
+
+    option = {
+        name = tlww_usa.10.a
+
+        
+
+        add_stability = -0.10
+        add_war_support = 0.05
+        add_political_power = -75
+
+        # Lock politics back to the Atlanticist (Democratic) lane for continuity.
+        set_politics = {
+            ruling_party      = democratic
+            elections_allowed = yes
+        }
+
+        # Rubio assumes the presidency.
+        hidden_effect = {
+            kill_country_leader = yes
+            promote_character = USA_marco_rubio
+            set_party_leader = { ideology = democratic character = USA_marco_rubio }
+        }
+
+        # Follow-up: the oath / emergency measures
+        country_event = { id = tlww_usa.11 days = 1 }
+
+    }
+}
+
+# --- TLWW.USA.11: The Oath ---
+country_event = {
+    id      = tlww_usa.11
+    title   = tlww_usa.11.t
+    desc    = tlww_usa.11.d
+    picture = GFX_report_event_generic_peaceful_negotiations
+
+    is_triggered_only = yes
+
+    trigger = {
+        tag = USA
+        has_country_flag = tlww_vance_assassinated
+    }
+
+    option = {
+        name = tlww_usa.11.a
+        add_stability = 0.03
+        add_political_power = 35
+    }
+
+    option = {
+        name = tlww_usa.11.b
+        add_war_support = 0.03
+        add_political_power = 15
+    }
+}

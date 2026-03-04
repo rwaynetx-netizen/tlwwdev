@@ -1,0 +1,66 @@
+add_namespace = tlww_crisis_pulse
+
+# Monthly Crisis System Update - FIXED FOR 1.17.4
+# Uses country_event scoped to USA instead of non-existent global_event
+news_event = {
+	id = tlww_crisis_pulse.1
+	title = tlww_crisis_pulse.1.t
+	desc = tlww_crisis_pulse.1.d
+	picture = GFX_news_event_generic_parliament
+	
+	is_triggered_only = yes
+	hidden = yes  # Never shows to player - runs silently
+	
+	immediate = {
+		# Random escalation chance for each flashpoint
+		
+		# Taiwan Strait (10% chance monthly)
+		random_list = {
+			10 = { tlww_escalate_taiwan = yes }
+			90 = { }
+		}
+		
+		# Eastern Europe (8% chance monthly)
+		random_list = {
+			8 = { tlww_escalate_eastern_europe = yes }
+			92 = { }
+		}
+		
+		# Panama Canal (5% chance monthly)
+		random_list = {
+			5 = { tlww_escalate_panama = yes }
+			95 = { }
+		}
+		
+		# Arctic (6% chance monthly)
+		random_list = {
+			6 = { tlww_escalate_arctic = yes }
+			94 = { }
+		}
+		
+		# African resource wars (7% chance monthly)
+		random_list = {
+			7 = { tlww_escalate_africa = yes }
+			93 = { }
+		}
+		
+		# South American debt crisis (5% chance monthly)
+		random_list = {
+			5 = { tlww_escalate_south_america = yes }
+			95 = { }
+		}
+		
+		# FIXED: Use country_event scoped to USA instead of global_event
+		# Schedule next month's pulse
+		USA = {
+			country_event = {
+				id = tlww_crisis_pulse.1
+				days = 30
+			}
+		}
+	}
+	
+	option = {
+		name = tlww_crisis_pulse.1.a
+	}
+}

@@ -1,0 +1,25 @@
+# TLWWDEV — News Events
+# Path: events/tlww_news_events.txt
+
+add_namespace = tlww_news
+
+# Hidden scheduler — loops automatically
+country_event = {
+    id = tlww_news.1
+    hidden = yes
+    is_triggered_only = yes
+    immediate = {
+        news_event = { id = tlww_news.10 days = 1 }
+        country_event = { id = tlww_news.1 days = 40 random_days = 20 }
+    }
+}
+
+news_event = {
+    id      = tlww_news.10
+    title   = tlww_news.10.t
+    desc    = tlww_news.10.d
+    picture = GFX_news_event_generic_parliament
+    major   = yes
+    is_triggered_only = yes
+    option = { name = tlww_news.10.a }
+}

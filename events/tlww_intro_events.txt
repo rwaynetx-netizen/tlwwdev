@@ -1,0 +1,29 @@
+add_namespace = tlww_intro
+
+# Day One: The Coming Conflict
+country_event = {
+	id = tlww_intro.1
+	title = tlww_intro.1.t
+	desc = tlww_intro.1.d
+	picture = GFX_report_event_generic_parliament
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	# Only fire for human player
+	trigger = {
+        NOT = { has_global_flag = tlww_intro_fired }
+
+    immediate = {
+        set_global_flag = tlww_intro_fired
+    }
+is_ai = no
+	}
+	
+	# Dismiss button
+	option = {
+		name = tlww_intro.1.a
+		# Optional: Set flag to track that player has seen this
+		set_global_flag = tlww_intro_seen
+	}
+}

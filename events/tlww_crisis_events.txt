@@ -1,0 +1,85 @@
+add_namespace = tlww_crisis
+
+# Crisis Level: Rising (25%)
+news_event = {
+	id = tlww_crisis.1
+	title = tlww_crisis.1.t
+	desc = tlww_crisis.1.d
+	picture = GFX_news_event_generic_sign_treaty2
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = tlww_crisis.1.a  # "The world grows tense..."
+	}
+}
+
+# Crisis Level: Elevated (50%)
+news_event = {
+	id = tlww_crisis.2
+	title = tlww_crisis.2.t
+	desc = tlww_crisis.2.d
+	picture = GFX_news_event_generic_read_letter
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = tlww_crisis.2.a  # "Flashpoints multiply..."
+	}
+}
+
+# Crisis Level: Critical (75%)
+news_event = {
+	id = tlww_crisis.3
+	title = tlww_crisis.3.t
+	desc = tlww_crisis.3.d
+	picture = GFX_news_event_generic_rally
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = tlww_crisis.3.a  # "War is inevitable."
+	}
+}
+
+# THE LAST WORLD WAR BEGINS (100%)
+news_event = {
+	id = tlww_crisis.100
+	title = tlww_crisis.100.t
+	desc = tlww_crisis.100.d
+	picture = GFX_news_event_generic_military_parade
+	
+	is_triggered_only = yes
+	major = yes
+	
+	immediate = {
+		# Trigger global war state
+		# Add your war start logic here
+		# Examples:
+		# - Create factions
+		# - Generate wargoals
+		# - Trigger focus tree bypasses
+		# - Set up alliance blocs
+	}
+	
+	option = {
+		name = tlww_crisis.100.a  # "The Last World War has begun."
+	}
+}
+
+# Crisis Status Report (triggered by decision)
+country_event = {
+	id = tlww_crisis.200
+	title = tlww_crisis.200.t
+	desc = tlww_crisis.200.d
+	picture = GFX_report_event_generic_parliament
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = tlww_crisis.200.a  # "Understood."
+	}
+}
