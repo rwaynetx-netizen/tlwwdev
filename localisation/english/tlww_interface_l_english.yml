@@ -1,0 +1,53 @@
+﻿l_english:
+ DIFFICULTY_CIVILIAN:0 "Groyper"
+ DIFFICULTY_EASY:0 "Elite"
+ DIFFICULTY_NORMAL:0 "Patriot"
+ DIFFICULTY_HARD:0 "Hard"
+ DIFFICULTY_VERY_HARD:0 "Very Hard"
+ 
+ DIFFICULTY_CIVILIAN_DESC:0 "For new players. Significant bonuses to the player."
+ DIFFICULTY_EASY_DESC:0 "For casual players. Some bonuses to the player."
+ DIFFICULTY_NORMAL_DESC:0 "Balanced experience."
+ DIFFICULTY_HARD_DESC:0 "For experienced players. Some bonuses to the AI."
+ DIFFICULTY_VERY_HARD_DESC:0 "For expert players. Major bonuses to the AI."
+
+ # Ideology Names
+ democratic:0 "Atlanticism"
+ neutrality:0 "Multipolarism"
+ communism:0 "Neo-Communism"
+ fascism:0 "National Integralism"
+ 
+ # US Party Names
+ USA_democratic_party:0 "Democratic-Republicans"
+ USA_democratic_party_long:0 "Democratic-Republican Party"
+ USA_multipolar_party:0 "Fourth Position Party"
+ USA_multipolar_party_long:0 "Fourth Position Party"
+ USA_communist_party:0 "CPUSA"
+ USA_communist_party_long:0 "Communist Party USA"
+ USA_integralist_party:0 "America First"
+ USA_integralist_party_long:0 "America First Party"
+ 
+ # Crisis System Events
+ tlww_intro.1.t:0 "THE COMING CONFLICT"
+ tlww_intro.1.d:0 "The systems shaping global politics in 2036 are fundamentally incompatible. Can the world avoid a final confrontation?"
+ tlww_intro.1.a:0 "The storm is gathering..."
+ 
+ tlww_crisis.1.t:0 "GLOBAL CRISIS LEVEL: RISING"
+ tlww_crisis.1.d:0 "Geopolitical tensions are increasing worldwide."
+ tlww_crisis.1.a:0 "The world grows tense..."
+ 
+ tlww_crisis.2.t:0 "GLOBAL CRISIS LEVEL: ELEVATED"
+ tlww_crisis.2.d:0 "Flashpoints are multiplying."
+ tlww_crisis.2.a:0 "Flashpoints multiply..."
+ 
+ tlww_crisis.3.t:0 "GLOBAL CRISIS LEVEL: CRITICAL"
+ tlww_crisis.3.d:0 "War is inevitable."
+ tlww_crisis.3.a:0 "War approaches."
+ 
+ tlww_crisis.100.t:0 "THE LAST WORLD WAR"
+ tlww_crisis.100.d:0 "The Last World War has begun."
+ tlww_crisis.100.a:0 "History will remember this day."
+ 
+ tlww_crisis_pulse.1.t:0 "Crisis System Update"
+ tlww_crisis_pulse.1.d:0 "Monthly crisis escalation check."
+ tlww_crisis_pulse.1.a:0 "Continue"

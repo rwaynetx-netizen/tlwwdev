@@ -1,0 +1,12 @@
+﻿l_english:
+ tlww_usa.10.t:0 "Shots in the Capital"
+ tlww_usa.10.d:0 "President J. D. Vance has been assassinated. The nation reels as uncertainty spreads through every institution. With the constitutional line of succession invoked, Vice President Marco Rubio is sworn in amid a rapidly deteriorating security environment."
+ tlww_usa.10.a:0 "The Republic must endure."
+
+ tlww_usa.11.t:0 "The Oath"
+ tlww_usa.11.d:0 "Marco Rubio takes the oath of office as the machinery of government shifts into emergency posture. Allies demand reassurance. Rivals test the perimeter. Inside Washington, every faction claims the mandate to define what comes next."
+ tlww_usa.11.a:0 "Restore order and reassure our allies."
+ tlww_usa.11.b:0 "Project strength. No hesitation."
+
+ crisis_manager:0 "Crisis Manager"
+ crisis_manager_desc:0 "Hardened by succession under fire, this leader stabilizes the state and converts shock into direction."

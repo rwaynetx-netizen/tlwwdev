@@ -1,0 +1,35 @@
+﻿l_english:
+ tlww_intro.1.t:0 "THE COMING CONFLICT"
+ tlww_intro.1.d:0 "The systems shaping global politics in 2036 are fundamentally incompatible.\n\n§BAtlanticism§! — Western universalism\n§GMultipolarism§! — Civilizational independence\n§RNeo-Communism§! — Revolutionary Global South coordination\nNational Integralism — Civilizational restoration\n\nEach represents a radically different vision for the future of global civilization.\n\nThe competition between these visions increasingly manifests in geopolitical flashpoints around the world.\n\nThe central strategic question of the era is therefore simple:\n\nCan the world avoid a final confrontation between these systems?\n\nOr is the Last World War already inevitable?"
+ tlww_intro.1.a:0 "The storm is gathering..."
+ 
+ # Crisis System Events
+ tlww_crisis.1.t:0 "GLOBAL CRISIS LEVEL: RISING"
+ tlww_crisis.1.d:0 "Geopolitical tensions are increasing worldwide. Multiple flashpoints show signs of escalation. The risk of systemic confrontation between incompatible civilizational blocs is growing."
+ tlww_crisis.1.a:0 "The world grows tense..."
+ 
+ tlww_crisis.2.t:0 "GLOBAL CRISIS LEVEL: ELEVATED"
+ tlww_crisis.2.d:0 "Flashpoints are multiplying faster than diplomatic mechanisms can contain them. The Atlantic powers, Multipolar axis, Neo-Communist movements, and Integralist states are hardening their positions. Escalation dominance is replacing deterrence."
+ tlww_crisis.2.a:0 "Flashpoints multiply..."
+ 
+ tlww_crisis.3.t:0 "GLOBAL CRISIS LEVEL: CRITICAL"
+ tlww_crisis.3.d:0 "The international system is approaching total breakdown. Regional crises are merging into a single global confrontation. The question is no longer §Hif§! the Last World War will begin, but §Hwhen§!."
+ tlww_crisis.3.a:0 "War is inevitable."
+ 
+ tlww_crisis.100.t:0 "THE LAST WORLD WAR"
+ tlww_crisis.100.d:0 "The crisis threshold has been breached.\\n\\nThe systems shaping global civilization — Atlanticism, Multipolarism, Neo-Communism, and National Integralism — can no longer coexist peacefully.\\n\\nThe Last World War has begun."
+ tlww_crisis.100.a:0 "History will remember this day."
+ 
+ # Crisis Pulse (hidden event - doesn't need loc but included for completeness)
+ tlww_crisis_pulse.1.t:0 "Crisis System Update"
+ tlww_crisis_pulse.1.d:0 "Monthly crisis escalation check."
+ tlww_crisis_pulse.1.a:0 "Continue"
+ 
+ # Crisis Monitoring Decision
+ tlww_check_crisis_status:0 "Monitor Global Crisis Level"
+ tlww_check_crisis_status_desc:0 "Check the current global escalation status and active flashpoints."
+ tlww_crisis_level_tt:0 "Current crisis monitoring data will be displayed."
+ 
+ tlww_crisis.200.t:0 "GLOBAL CRISIS STATUS REPORT"
+ tlww_crisis.200.d:0 "Current intelligence assessment of global flashpoint activity and escalation risk.\\n\\n§HCurrent Crisis Level:§! [?global.tlww_crisis_level]%\\n\\n§YActive Flashpoints:§!\\n• Taiwan Strait: [?global.tlww_taiwan_crisis]\\n• Eastern Europe: [?global.tlww_eastern_europe_crisis]\\n• Panama Canal: [?global.tlww_panama_crisis]\\n• Arctic militarization: [?global.tlww_arctic_crisis]\\n• African resource wars: [?global.tlww_africa_crisis]\\n• South American instability: [?global.tlww_south_america_crisis]"
+ tlww_crisis.200.a:0 "Understood."
