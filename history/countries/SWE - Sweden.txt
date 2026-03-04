@@ -1,0 +1,13 @@
+# TLWWDEV — SWE (Sweden) History
+# Path: history/countries/SWE - Sweden.txt
+
+# Recruit and assign 2036 start leader
+recruit_character = SWE_queen_estelle
+
+set_country_leader = { character = SWE_queen_estelle }
+
+
+set_politics = {
+    ruling_party      = democratic
+    elections_allowed = yes
+}

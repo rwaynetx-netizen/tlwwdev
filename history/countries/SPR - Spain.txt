@@ -1,0 +1,26 @@
+# TLWWDEV — SPR (Spain) History
+# Path: history/countries/SPR - Spain.txt
+# FIX: "SPR - TLWW Leaders.txt" was overriding ruling_party to democratic and
+# creating a leader with undefined trait 'racist'. That file is deleted.
+# Abascal is recruited via character file (SPR.txt) with ideology=fascism_ideology.
+
+capital = 41
+
+recruit_character = SPR_santiago_abascal
+
+set_country_leader = { character = SPR_santiago_abascal }
+
+
+set_politics = {
+    ruling_party       = fascism
+    elections_allowed  = yes
+    last_election      = "2033.07.23"
+    election_frequency = 48
+}
+
+set_popularities = {
+    fascism    = 42
+    democratic = 28
+    neutrality = 20
+    communism  = 10
+}

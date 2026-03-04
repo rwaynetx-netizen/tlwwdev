@@ -1,0 +1,24 @@
+# TLWWDEV — Portugal History
+# Path: history/countries/POR - Portugal.txt
+
+capital = 180
+
+# --- TLWW: 2036 setup ---
+set_politics = {
+    ruling_party      = fascism
+    elections_allowed = no
+}
+
+# --- Leader setup (character system) ---
+recruit_character = POR_alexandre_gazur
+
+set_country_leader = { character = POR_alexandre_gazur }
+
+
+
+# Party name override (Fascism slot)
+set_party_name = {
+    ideology  = fascism
+    long_name = "Chega"
+    name      = "Chega"
+}

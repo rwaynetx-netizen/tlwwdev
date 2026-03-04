@@ -1,0 +1,13 @@
+# TLWWDEV — SAF (South Africa) History
+# Path: history/countries/SAF - South Africa.txt
+
+# Recruit and assign 2036 start leader
+recruit_character = SAF_julius_malema
+
+set_country_leader = { character = SAF_julius_malema }
+
+
+set_politics = {
+    ruling_party      = communism
+    elections_allowed = no
+}

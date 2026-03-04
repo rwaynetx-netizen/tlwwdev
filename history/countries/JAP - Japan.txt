@@ -1,0 +1,10 @@
+# TLWWDEV — JAP (Japan) History
+# Path: history/countries/JAP - Japan.txt
+
+# Recruit and assign 2036 start leader
+recruit_character = JAP_makoto_sakurai
+
+set_country_leader = { character = JAP_makoto_sakurai }
+
+
+set_politics = { ruling_party = democratic elections_allowed = yes }

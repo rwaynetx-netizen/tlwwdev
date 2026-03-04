@@ -1,0 +1,13 @@
+# TLWWDEV — CHI (China) History
+# Path: history/countries/CHI - China.txt
+
+# Recruit and assign 2036 start leader
+recruit_character = CHI_ding_xuexiang
+
+set_country_leader = { character = CHI_ding_xuexiang }
+
+
+set_politics = {
+    ruling_party      = neutrality
+    elections_allowed = no
+}

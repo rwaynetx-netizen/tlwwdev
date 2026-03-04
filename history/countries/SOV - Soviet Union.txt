@@ -1,0 +1,26 @@
+# TLWWDEV — SOV (Russia) History
+# Path: history/countries/SOV - Soviet Union.txt
+# FIX: "SOV - TLWW Leaders.txt" was setting ruling_party=democratic for Russia
+# and creating a leader with ideology=democratic — both wrong. That file is deleted.
+# Putin is recruited via character file (SOV.txt) which sets ideology=despotism.
+
+capital = 219
+
+recruit_character = SOV_vladimir_putin
+
+set_country_leader = { character = SOV_vladimir_putin }
+
+
+set_politics = {
+    ruling_party       = neutrality
+    elections_allowed  = no
+    last_election      = "2024.03.17"
+    election_frequency = 72
+}
+
+set_popularities = {
+    neutrality = 75
+    democratic = 10
+    communism  = 11
+    fascism    = 4
+}

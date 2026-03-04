@@ -1,0 +1,13 @@
+# TLWWDEV — TUR (Turkey) History
+# Path: history/countries/TUR - Turkey.txt
+
+# Recruit and assign 2036 start leader
+recruit_character = TUR_hakan_fidan
+
+set_country_leader = { character = TUR_hakan_fidan }
+
+
+set_politics = {
+    ruling_party      = neutrality
+    elections_allowed = no
+}

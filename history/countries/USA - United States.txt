@@ -1,0 +1,100 @@
+capital = 361  # Washington DC
+
+# ========================================
+# POLITICS - FIXED FOR 1.17.4
+# ========================================
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "2032.11.5"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 52
+	neutrality = 22
+	communism = 14
+	fascism = 12
+}
+
+# ========================================
+# PARTY NAMES (CUSTOM)
+# ========================================
+
+set_party_name = {
+	ideology = democratic
+	long_name = USA_democratic_party_long
+	name = USA_democratic_party
+}
+
+set_party_name = {
+	ideology = neutrality
+	long_name = USA_multipolar_party_long
+	name = USA_multipolar_party
+}
+
+set_party_name = {
+	ideology = communism
+	long_name = USA_communist_party_long
+	name = USA_communist_party
+}
+
+set_party_name = {
+	ideology = fascism
+	long_name = USA_integralist_party_long
+	name = USA_integralist_party
+}
+
+# ========================================
+# LEADERS - FIXED: Use create_country_leader, NOT set_country_leader
+# ========================================
+
+# Option 1: If using character system (RECOMMENDED for 1.17.4)
+recruit_character = USA_jd_vance
+recruit_character = USA_peter_thiel
+recruit_character = USA_jackson_hinkle
+recruit_character = USA_alexandria_ocasio_cortez
+recruit_character = USA_nicholas_fuentes
+
+# Option 2: If NOT using character system (legacy method)
+# Uncomment this if you don't have characters defined:
+# create_country_leader = {
+#     name = "J. D. Vance"
+#     picture = "gfx/leaders/USA/jd_vance.dds"
+#     ideology = conservatism
+# }
+
+# ========================================
+# AUTO-HIRE PETER THIEL (FIXED)
+# ========================================
+
+# CRITICAL: This auto-hires Thiel on game start
+add_ideas = {
+	USA_peter_thiel
+}
+
+# ========================================
+# NATIONAL SPIRITS
+# ========================================
+
+add_ideas = {
+	USA_atlantic_digital_coalition
+	USA_monroe_doctrine_2036
+}
+
+# ========================================
+# TECHNOLOGY
+# ========================================
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_engineers = 1
+}
+
+# ========================================
+# CONVOYS
+# ========================================
+
+set_convoys = 300
