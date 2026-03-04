@@ -1,0 +1,184 @@
+TLWW DEVELOPMENT NOTE
+Iran Political Paths – 2036 Scenario Design
+
+Date Logged: 2026
+Author: TLWW Development
+
+Purpose
+Define plausible political trajectories for Iran in the 2036 start date and outline possible gameplay paths for Iranian internal politics within the TLWW framework.
+
+---
+
+I. DESIGN PREMISE
+
+Iran occupies a unique geopolitical position in the TLWW setting.
+
+Unlike many states whose ideological direction may be relatively predictable by 2036, Iran sits at the intersection of several potential historical trajectories.
+
+Real-world developments suggest multiple plausible futures for the Iranian state:
+
+• Continued theocratic governance
+• Military-dominated revolutionary state
+• Moderated nationalist republic
+• Hybrid authoritarian-democratic regime similar to modern Turkey
+
+For TLWW design purposes, Iran should begin the game in a condition of **internal ideological tension**, rather than as a fully stabilized regime.
+
+This reflects the long-term pressures acting on the Iranian political system.
+
+---
+
+II. STARTING SITUATION (2036 BASELINE)
+
+Recommended baseline configuration:
+
+Government Type
+Multipolar-aligned nationalist government
+
+Political Environment
+Fragmented elite structure with multiple competing factions.
+
+Key internal actors:
+
+Revolutionary Guard Establishment
+Security elite with influence over defense policy and foreign alignment.
+
+Clerical Legacy Institutions
+Religious authority structures inherited from the Islamic Republic.
+
+Technocratic Nationalists
+Administrative and economic reform advocates seeking greater global integration.
+
+Iran in 2036 should therefore begin as a state with **internal factional competition rather than ideological uniformity**.
+
+---
+
+III. MAJOR POLITICAL FACTIONS
+
+The following factions represent possible political outcomes.
+
+1. Reformist National Republic Movement
+
+Ideology
+Atlanticism or pragmatic non-alignment
+
+Characteristics
+
+Secularized governance
+Economic modernization
+Partial political liberalization
+Reduced clerical influence
+
+Foreign Policy Orientation
+
+Attempted normalization with Western states
+Balancing between Atlantic and Multipolar powers
+
+Gameplay Implications
+
+Potential diplomatic opening toward Atlantic-aligned states
+Domestic resistance from religious and nationalist factions
+
+---
+
+2. Revolutionary Guard Directorate
+
+Ideology
+Multipolarity
+
+Characteristics
+
+Security-dominated governance
+State-controlled economic sectors
+Strategic partnership with Russia and China
+
+Foreign Policy Orientation
+
+Alignment with Multipolar bloc
+Expansion of regional influence networks
+
+Gameplay Implications
+
+Strong military state
+Potential conflicts in Middle East power balance
+
+---
+
+3. Islamic Restoration Front
+
+Ideology
+National Integralism
+
+Characteristics
+
+Revival of theocratic authority
+Strong religious nationalism
+Civilizational framing of Iranian state identity
+
+This path represents a restoration or radicalization of the original revolutionary ideology of the Islamic Republic.
+
+Foreign Policy Orientation
+
+Civilizational Islamic bloc formation
+
+Possible partners
+
+Pakistan
+Afghanistan
+Elements of North African political movements
+
+Important Note
+
+Despite sharing Integralist characteristics, this government would not naturally align with Western Integralist states due to civilizational differences.
+
+---
+
+IV. GAMEPLAY DESIGN GOALS
+
+Iran should function as a geopolitical wildcard rather than a fixed member of any global bloc.
+
+Desired gameplay outcomes:
+
+Iran may align with Multipolar powers
+
+Iran may partially normalize relations with Atlantic states
+
+Iran may lead an Islamic civilizational bloc
+
+Iran may become internally unstable or fragmented
+
+This flexibility increases replayability and reflects Iran’s historically complex political evolution.
+
+---
+
+V. CIVILIZATIONAL CONTEXT
+
+Under the TLWW Civilization System, Iran belongs to the Islamic civilizational sphere.
+
+This means:
+
+Integralist Iran will not automatically align with Integralist Atlantic states.
+
+Instead it may pursue independent civilizational leadership within the Islamic world.
+
+This reinforces TLWW’s core theme of civilizational competition.
+
+---
+
+VI. LONG TERM EVENT POTENTIAL
+
+Possible future event chains:
+
+Succession crisis within clerical leadership
+
+Revolutionary Guard power struggle
+
+Popular reform movement
+
+Regional civilizational leadership campaigns
+
+These dynamics could trigger major political shifts in Iran during gameplay.
+
+---
+
+END OF NOTE

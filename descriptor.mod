@@ -1,0 +1,13 @@
+name="TLWWDEV"
+picture="thumbnail.png"
+version="1.17.*"
+supported_version="1.17.*"
+replace_path="history/wars"
+replace_path="history/diplomacy"
+replace_path="common/national_focus"
+replace_path="gfx/loadingscreens"
+replace_path="common/decisions"
+replace_path="common/on_actions"
+replace_path="events"
+
+replace_path="common/bookmarks"

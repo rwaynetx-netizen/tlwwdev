@@ -1,0 +1,179 @@
+TLWW DEVELOPMENT NOTE
+Faction Design Doctrine
+
+Date Logged: 2026
+Author: TLWW Development
+
+Purpose
+Define the guiding principles for alliance formation and faction behavior in TLWW in order to prevent unrealistic ideological megablocs and reinforce the mod’s geopolitical realism.
+
+---
+
+I. PROBLEM WITH VANILLA HOI4 FACTIONS
+
+In vanilla Hearts of Iron IV, factions tend to form along purely ideological lines.
+
+Typical examples include:
+
+All fascist states aligning into a single bloc
+
+All communist states forming a global alliance
+
+Democratic states forming a unified coalition
+
+While this simplifies gameplay, it produces unrealistic geopolitical outcomes.
+
+Historically and in the TLWW setting, ideological similarity alone does not guarantee alliance compatibility.
+
+States with similar ideologies may still compete due to:
+
+Civilizational differences
+Strategic rivalries
+Regional interests
+
+Therefore TLWW should avoid allowing ideological megablocs to form automatically.
+
+---
+
+II. TLWW DESIGN PRINCIPLE
+
+Faction formation should be determined by a combination of factors rather than ideology alone.
+
+Primary determinants:
+
+Ideological compatibility
+Civilizational alignment
+Strategic threat environment
+Regional interests
+
+Ideology influences cooperation but does not guarantee alliance.
+
+---
+
+III. EXPECTED FACTION TYPES
+
+Rather than a small number of ideological super-blocs, TLWW should produce several competing geopolitical coalitions.
+
+Examples include:
+
+Atlantic Coalition
+
+Likely members
+
+United States
+United Kingdom
+Canada
+Poland
+Australia
+
+Primary focus
+
+Preserving Atlantic strategic dominance.
+
+---
+
+Multipolar Strategic Bloc
+
+Likely members
+
+Russia
+China
+Various regional partners
+
+Primary focus
+
+Opposition to Atlantic geopolitical dominance.
+
+---
+
+Regional Civilizational Alliances
+
+These alliances may form between culturally aligned states rather than ideologically identical ones.
+
+Examples
+
+European Restoration Pact
+Islamic Sovereignty League
+Pacific Security Compact
+
+These alliances may change over time depending on world events.
+
+---
+
+IV. ROLE OF NATIONAL INTEGRALISM
+
+National Integralism should not automatically produce a unified global alliance.
+
+Instead it should create multiple civilizational nationalist movements.
+
+Examples
+
+Western Integralist states
+
+United States
+Parts of Europe
+
+Islamic Integralist states
+
+Iran
+Potential regional partners
+
+Asian Integralist states
+
+Japan
+Possible regional allies
+
+These movements may cooperate temporarily but are not guaranteed long-term allies.
+
+---
+
+V. DIGITALISM AS A BRIDGE
+
+Digitalism is a unique ideology in the TLWW system because it is trans-civilizational.
+
+Digitalist actors prioritize technological sovereignty and algorithmic governance rather than cultural identity.
+
+This allows Digitalist coalitions to form between otherwise incompatible states.
+
+However such coalitions should generate internal political tension.
+
+Example
+
+Atlantic-Digital coalition within the United States.
+
+---
+
+VI. IMPLEMENTATION APPROACH
+
+Faction formation should be controlled primarily through:
+
+Focus tree decisions
+Diplomatic events
+Strategic threat triggers
+AI alliance weighting
+
+Rather than automatic ideology-based faction creation.
+
+This allows dynamic coalition building depending on world events.
+
+---
+
+VII. DESIGN OBJECTIVE
+
+The diplomatic system should produce a world where:
+
+Multiple competing alliances exist simultaneously
+
+States shift alignments depending on strategic pressure
+
+Civilizational conflicts shape long-term geopolitical blocs
+
+This structure reinforces TLWW’s central narrative premise.
+
+The Last World War is not simply ideological.
+
+It is a struggle between competing visions of civilization.
+
+---
+
+END OF NOTE

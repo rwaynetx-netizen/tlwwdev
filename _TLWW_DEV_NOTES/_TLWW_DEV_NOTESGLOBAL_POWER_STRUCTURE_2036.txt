@@ -1,0 +1,256 @@
+TLWW DEVELOPMENT NOTE
+Global Power Structure – 2036 Strategic Framework
+
+Date Logged: 2026
+Author: TLWW Development
+
+Purpose
+Define the geopolitical balance of power at the 2036 start date.
+This document establishes the strategic environment in which the events of "The Last World War" unfold.
+
+The structure described here will guide:
+
+• Focus tree design
+• AI diplomatic behavior
+• Crisis event chains
+• Faction formation logic
+• Global war escalation mechanics
+
+---
+
+I. THE WORLD OF 2036
+
+The post–Cold War order has collapsed.
+
+For decades the international system was dominated by a rules-based order centered around Atlantic civilization and enforced primarily through American military and economic power.
+
+That order now faces multiple simultaneous challenges.
+
+The world of 2036 is defined by four major political forces competing for global influence.
+
+These forces are not always coherent alliances, but rather broad ideological and civilizational movements shaping the direction of world politics.
+
+These forces are:
+
+1. The Atlantic System
+2. The Multipolar Bloc
+3. The Neo-Communist Movement
+4. The Integralist Resurgence
+
+The interaction between these forces defines the strategic environment of TLWW.
+
+---
+
+II. THE ATLANTIC SYSTEM
+
+The Atlantic system represents the remnants of the liberal international order constructed after the Cold War.
+
+Its core principle is the maintenance of a rules-based global order centered around Atlantic civilization and Western political institutions.
+
+However, by 2036 the Atlantic system is internally uncertain.
+
+Following the geopolitical shock of the Ukraine war and the political rise of nationalist movements within the United States, confidence in American leadership declined across Europe.
+
+The "MAGA era" created lasting doubt among European states about whether the United States would remain fully committed to NATO and the defense of the Atlantic world.
+
+As a result, the Atlantic bloc in 2036 appears fragmented.
+
+However the institutional infrastructure of the alliance still exists.
+
+NATO command structures remain intact.
+
+Military coordination between Atlantic states continues.
+
+And many European leaders increasingly believe that renewed unity may be necessary as global tensions escalate.
+
+Key Atlantic states include:
+
+United States
+United Kingdom
+Germany
+Poland
+Canada
+Australia
+Austria
+
+Other European states remain politically divided but are still broadly oriented toward the Atlantic system.
+
+The central question facing the Atlantic world in 2036 is therefore not whether it exists.
+
+The question is whether it will **reunify and recommit**, or continue drifting toward fragmentation.
+
+---
+
+III. THE MULTIPOLAR BLOC
+
+Opposing the Atlantic system is the emerging Multipolar Bloc.
+
+Multipolarity rejects the concept of a single dominant global civilization or ideological system.
+
+Instead it asserts that multiple great civilizations should possess independent spheres of influence.
+
+The intellectual and ideological foundation of multipolarity originates largely in Russia.
+
+Russian strategic thinkers frame the global conflict as a civilizational correction to decades of Atlantic dominance.
+
+However the material strength of the multipolar bloc increasingly comes from China.
+
+In the early decades of the 21st century China was often perceived as a junior partner to Russia in geopolitical alignment.
+
+By 2036 this is no longer the case.
+
+China has grown into an economic and technological superpower capable of rivaling the United States in industrial capacity.
+
+Russia therefore provides the ideological articulation of multipolarity.
+
+China provides the industrial and technological weight.
+
+Together they form a dual leadership structure within the multipolar movement.
+
+Possible members or aligned states include:
+
+Russia
+China
+Belarus
+Iran (potential alignment)
+Brazil (potential alignment)
+
+Other regional powers may support multipolar initiatives as a means of escaping the Atlantic order that dominated them for decades.
+
+---
+
+IV. THE NEO-COMMUNIST MOVEMENT
+
+The Neo-Communist movement represents a revival of revolutionary socialist ideology adapted for the 21st century.
+
+Unlike the Soviet model of the Cold War, Neo-Communism is less centralized and more globally diffuse.
+
+Its strongest presence exists within the developing world.
+
+Neo-Communist movements often frame themselves as resistance against:
+
+Atlantic economic domination
+Corporate globalization
+Resource extraction by developed powers
+
+The ideological resurgence of nationalism and civilizational politics in the 2030s has paradoxically strengthened the appeal of Neo-Communist movements.
+
+As the great powers prepare for renewed global conflict and scramble for resources in Africa and South America, many leftist movements argue that only revolutionary socialism can protect workers and developing nations.
+
+While the Neo-Communist world is not yet unified into a single bloc, the escalation of global conflict may push these movements toward cooperation.
+
+Potential centers of Neo-Communist influence may emerge in:
+
+Africa
+South America
+parts of Southeast Asia
+
+---
+
+V. THE INTEGRALIST RESURGENCE
+
+National Integralism represents the resurgence of civilizational nationalism across multiple regions of the world.
+
+Integralist governments emphasize:
+
+cultural continuity
+demographic preservation
+national sovereignty
+civilizational revival
+
+However, unlike fascist movements of the 20th century, Integralist states are not automatically aligned with one another.
+
+Integralism is civilizational rather than universal.
+
+This means that Integralist governments may pursue very different geopolitical objectives depending on their cultural and regional context.
+
+In 2036 several states are already governed by Integralist movements.
+
+Examples include:
+
+Japan
+Australia
+Spain
+Ireland
+Hungary
+Poland
+
+These states share ideological similarities but do not yet form a unified alliance.
+
+The possibility exists that a powerful Integralist leader could unite them into a broader coalition.
+
+Some observers speculate that a future Integralist United States could potentially serve as that leader.
+
+However this outcome remains uncertain.
+
+---
+
+VI. THE EUROPEAN QUESTION
+
+Europe occupies a uniquely unstable position within the global system.
+
+Many European states remain committed to the Atlantic alliance.
+
+However the perceived decline of American leadership during the previous decade led some European governments to consider alternative strategic paths.
+
+As tensions rise between the Atlantic and Multipolar worlds, Europe may face a decisive choice.
+
+Possible futures include:
+
+Full recommitment to Atlantic unity
+
+Strategic autonomy and independent European power
+
+Fragmentation between competing ideological blocs
+
+The direction Europe ultimately chooses may determine the balance of power in the coming global conflict.
+
+---
+
+VII. BALANCE OF POWER
+
+By 2036 the world contains three true great powers.
+
+United States
+Russia
+China
+
+Each possesses unique strategic strengths.
+
+United States
+Still the world's most powerful military and financial system.
+
+Russia
+Possesses one of the most powerful militaries in the world and a deep tradition of strategic warfare.
+
+China
+The world's dominant industrial and technological production center.
+
+Individually none of these powers can easily dominate the others.
+
+However strategic coalitions between them could decisively reshape the global balance.
+
+---
+
+VIII. THE COMING CONFLICT
+
+The systems shaping global politics in 2036 are fundamentally incompatible.
+
+Atlantic universalism
+Multipolar civilizational independence
+Revolutionary Neo-Communism
+Civilizational Integralism
+
+Each represents a radically different vision for the future of global civilization.
+
+The competition between these visions increasingly manifests in geopolitical flashpoints around the world.
+
+The central strategic question of the era is therefore simple:
+
+Can the world avoid a final confrontation between these systems?
+
+Or is the Last World War already inevitable?
+
+---
+
+END OF NOTE

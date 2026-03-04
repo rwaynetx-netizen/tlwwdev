@@ -1,0 +1,239 @@
+TLWWDEV MASTER DEV NOTES
+
+Version: Stability Pass – Post-Bookmark Completion
+Status: 2036 Scenario Functional / Multi-Country Load Unstable
+
+🔴 PHASE 0 — PLAYABLE BUILD STABILIZATION (P0 BLOCKERS)
+0.1 Multi-Country Selection Crash
+
+Issue: Only USA loads successfully. All other selectable countries crash on game start.
+
+Objective:
+
+USA
+
+Russia
+
+China
+
+Japan
+
+Spain
+must all load cleanly into game without crash.
+
+Audit Targets:
+
+common/characters/
+
+history/countries/
+
+Missing traits file (00_tlww_traits.txt.bak may not be loading)
+
+Portrait GFX mismatches
+
+Invalid ideology keys
+
+Country history referencing non-existent characters
+
+Completion Criteria:
+
+All above countries load.
+
+No fatal errors in error.log.
+
+No generic leaders or missing portrait silhouettes.
+
+0.2 Majors vs Minors Bookmark Separation
+
+Current Status: Not implemented.
+
+Goal:
+
+Proper separation in country selection screen.
+
+Spain + Japan appear under Minors but remain selectable.
+
+Curated Majors list (USA, Russia, China, etc.)
+
+Note: Implement after 0.1 stability is achieved.
+
+🟠 PHASE 1 — USA POLITICAL SYSTEM CLEANUP
+1.1 Party Name Standardization
+
+Issue: "Democratic Party" still appears in some UI elements.
+
+Goal:
+
+Replace entirely with: Democratic Republicans
+
+Consistent across:
+
+Politics screen
+
+Tooltips
+
+Party popularity list
+
+Event references
+
+1.2 Ideology Mapping Cleanup (USA)
+
+Goal:
+
+Clean mapping of:
+
+Atlanticism (Democratic slot)
+
+Multipolarity (Neutrality slot)
+
+Neo-Communism (Communism slot)
+
+National Integralism (Fascism slot)
+
+Digitalism properly implemented as coalition-layer (not primary ideology)
+
+Deliverable:
+
+No vanilla ideological terminology visible in UI.
+
+Coalition presentation consistent with lore.
+
+🟠 PHASE 2 — ADVISOR SYSTEM (THIEL IMPLEMENTATION)
+2.1 Peter Thiel Autohire
+
+Goal:
+
+Thiel automatically hired on January 1, 2036.
+
+No manual click required.
+
+Implementation Options:
+
+Assigned in country history file
+
+On_game_start on_action
+
+Scripted effect in bookmark
+
+2.2 Thiel Buff Activation
+
+Issue: Buff currently not applying properly.
+
+Goal:
+
+Modifier appears in active national modifiers panel.
+
+Effects visibly alter research speed / PP etc.
+
+No suppressed trait/idea errors.
+
+🟡 PHASE 3 — MODERN PARTY IMMERSION PASS
+3.1 Custom Party Names for Major Countries
+
+Priority Countries:
+
+Spain → VOX
+
+Germany → AfD (if mapped to Integralism slot)
+
+France
+
+United Kingdom
+
+Italy
+
+Russia
+
+China
+
+Turkey
+
+Goal:
+
+Replace generic vanilla party names.
+
+Reflect plausible 2036 political landscape.
+
+Maintain ideological slot consistency.
+
+🟡 PHASE 4 — LEADER PLAUSIBILITY EXPANSION
+4.1 2036 Logical Leader Research
+
+Objective:
+
+Develop plausible future leaders for key nations.
+
+Use real-world figures based on logical projection.
+
+Avoid fictional placeholders.
+
+Process:
+
+Create shortlist (2–4 per country)
+
+Select final candidate
+
+Implement:
+
+Character definition
+
+Portrait
+
+Country history assignment
+
+Traits
+
+Localization
+
+🟢 PHASE 5 — STRATEGIC DESIGN DECISION (PENDING)
+5.1 Global Military Reset Doctrine
+
+Decision required:
+
+Option A — Hard Global Reset
+Option B — Majors Reset Only
+Option C — Retain Modern OOB
+
+No implementation until doctrine selected.
+
+🔵 PHASE 6 — REGION MODERNIZATION (GATED)
+
+(To resume after Phase 0 stability achieved)
+
+Balkans modernization (Kosovo / Serbia configuration)
+
+Middle East 2025 baseline (Palestine absorbed into Israel)
+
+Western/Central Europe audit
+
+Africa sovereignty cleanup
+
+✅ COMPLETED (ARCHIVED)
+
+1936 & 1939 scenarios removed
+
+2036 bookmark functional
+
+2039 “Coming Soon” scenario added
+
+Gazur functioning correctly
+
+Loading screens firing properly
+
+Menu music functioning
+
+Core ideology framework implemented
+
+🔒 CURRENT PRIORITY ORDER
+
+Multi-country load crash fix
+
+USA ideology & party cleanup
+
+Thiel autohire + buff fix
+
+Majors/minors bookmark separation
+
+Modern party immersion pass
+
+Leader research expansion

@@ -1,0 +1,205 @@
+TLWW DEVELOPMENT NOTE
+Civilization System Concept
+
+Date Logged: 2026
+Author: TLWW Development
+
+Purpose
+Document the design dilemma surrounding National Integralism and alliance behavior, and outline a proposed “Civilization System” to resolve ideological alignment issues within the TLWW geopolitical framework.
+
+---
+
+I. DESIGN DILEMMA
+
+During development of the ideological framework, a structural issue emerged concerning the behavior of National Integralist governments in international relations.
+
+In vanilla Hearts of Iron IV, fascist nations tend to align automatically with other fascist nations because fascism is treated as a universal ideological system. This produces large ideological blocs where all states of a given ideology cooperate naturally.
+
+However, TLWW's National Integralism doctrine is fundamentally different from vanilla fascism.
+
+National Integralism in TLWW is civilizational rather than universal.
+
+It represents the restoration, protection, and primacy of a specific civilization rather than a global ideological movement.
+
+Examples:
+
+American Integralism
+Focus on American cultural identity, demographic continuity, and national revival.
+
+European Integralism
+Focus on European cultural preservation and civilizational continuity.
+
+Islamic Integralism
+Focus on religious sovereignty, traditional authority structures, and Islamic civilizational revival.
+
+Sinic Integralism
+Focus on Chinese cultural and political centrality.
+
+Because of this, two Integralists from different civilizations may not naturally cooperate.
+
+In fact, they may compete directly.
+
+This creates a gameplay dilemma:
+
+If Integralists do not align automatically, the player may lose the ability to form large ideological alliances similar to vanilla fascist blocs.
+
+At first glance this appears to reduce gameplay options.
+
+Upon further analysis, this is actually a strength.
+
+---
+
+II. TLWW DESIGN PRINCIPLE
+
+The Last World War is fundamentally a conflict between civilizations, not simply between ideological systems.
+
+Therefore ideological alignment alone should not determine alliance behavior.
+
+Instead, alliance formation should be influenced by two overlapping factors:
+
+1. Ideological System
+2. Civilizational Sphere
+
+Ideology determines how a state governs internally.
+
+Civilization determines who it trusts externally.
+
+---
+
+III. CIVILIZATIONAL SPHERES (PROPOSED)
+
+The following civilizational groupings may be used as a baseline structure for diplomatic behavior.
+
+Atlantic Civilization
+United States
+Canada
+United Kingdom
+Australia
+New Zealand
+
+European Civilization
+Germany
+France
+Italy
+Spain
+Poland
+Hungary
+
+Orthodox / Eurasian Civilization
+Russia
+Serbia
+Belarus
+Parts of Eastern Europe
+
+Islamic Civilization
+Iran
+Turkey
+Pakistan
+Arab states
+
+Sinic Civilization
+China
+
+Indic Civilization
+India
+
+Latin American Civilization
+Brazil
+Argentina
+Other major Latin states
+
+Pacific Civilization
+Japan
+South Korea
+Taiwan
+
+These groups represent broad cultural and historical spheres rather than strict alliances.
+
+---
+
+IV. EFFECT ON NATIONAL INTEGRALISM
+
+National Integralism will function differently depending on civilizational context.
+
+Example cases:
+
+Integralist United States
+Likely allies: European Integralists, Japan, Israel
+Unlikely allies: Iran, Pakistan, China
+
+Integralist Iran
+Likely allies: Islamic sphere states
+Unlikely allies: Atlantic or European Integralists
+
+Integralist China
+Likely independent civilizational bloc
+
+This prevents a single global Integralist alliance from forming automatically.
+
+Instead multiple competing nationalist blocs emerge.
+
+---
+
+V. GAMEPLAY BENEFITS
+
+This system prevents ideological megablocs and creates a more dynamic diplomatic environment.
+
+Expected results:
+
+Multiple competing right-wing coalitions
+
+Temporary geopolitical alliances that override ideology
+
+Civilizational conflicts that align with TLWW narrative themes
+
+More believable world politics
+
+Players must consider both ideology and cultural alignment when building alliances.
+
+---
+
+VI. IRAN CASE STUDY (2036 POSSIBILITY)
+
+Given current real-world trajectories, Iran in 2036 could plausibly evolve into a semi-liberalized state similar to modern Turkey.
+
+Possible scenario:
+
+Iran begins under a moderated regime but contains strong internal factions.
+
+Potential factions:
+
+Reformist Republican Movement
+Moderate, pragmatic foreign policy
+
+Revolutionary Guard Hardliners
+Multipolar alignment with Russia and China
+
+Islamic Restoration Front
+Integralist revival movement seeking restoration of theocratic authority
+
+If the Restoration Front gains power, Iran becomes an Integralist state.
+
+However, it does not automatically align with Western Integralists due to civilizational differences.
+
+Instead it may form an Islamic civilizational bloc.
+
+---
+
+VII. IMPLEMENTATION CONCEPT
+
+This system should be implemented as a hidden diplomatic layer.
+
+Each country receives a civilization flag.
+
+Example implementation:
+
+set_country_flag = tlww_civ_atlantic
+set_country_flag = tlww_civ_european
+set_country_flag = tlww_civ_islamic
+set_country_flag = tlww_civ_sinic
+
+These flags influence:
+
+AI alliance behavior
+Opinion modifiers
+Faction formati
